@@ -17,11 +17,11 @@ In this lesson, we're going to go over the basics of markdown, as well as some G
 ### Paragraphs
 Let's start simple. Most text in markdown is just written as plaintext. To create a new paragraph, simply hit the "return/enter" button twice to create a blank line between your two paragraphs.
 
-```markdown
+{% highlight markdown %}
 This is a paragraph.
 
 This is another paragraph.
-```
+{% endhighlight %}
 
 > This is a paragraph.
 > 
@@ -30,9 +30,9 @@ This is another paragraph.
 ### Bold
 Say you're writing a message, and you want one part to be highlighted to the recipient is more likely to pay attention to it. You bold the message. In markdown, you bold text by wrapping it in two asterixes.
 
-```markdown
+{% highlight markdown %}
 This text is plain, **this text is bold**.
-```
+{% endhighlight %}
 
 > This text is plain, **this text is bold**.
 
