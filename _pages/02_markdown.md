@@ -41,9 +41,9 @@ The wrapped text will end up bold in the final project.
 ### Italics
 If you want to italitize some text, you can wrap it with a single underscore character on each side.
 
-```markdown
+{% highlight markdown %}
 We're reading _My Brilliant Friend_ in our book club this month.
-```
+{% endhighlight %}
 
 > We're reading _My Brilliant Friend_ in our book club this month.
 
@@ -52,11 +52,11 @@ Using a single asterisk will also work if you don't like the looks of the unders
 ### Formatting across paragraphs.
 Bolding, italicizing, and striking out are all line-level formats. That is to say, they won't work across paragraphs. For instance, if you want to bold two whole paragraphs, you'll have to separately mark each one as bolded.
 
-```markdown
+{% highlight markdown %}
 **Bold paragraph the first.**
 
 **Bold paragraph the second.**
-```
+{% endhighlight %}
 
 > **Bold paragraph the first.**
 > 
@@ -65,7 +65,7 @@ Bolding, italicizing, and striking out are all line-level formats. That is to sa
 ### Headers
 Headers are created using hash marks before the text designed to be a header. The entire paragraph will become a header. A header can have one to six hash marks before it. The more hashes, the smaller the header will be.
 
-```markdown
+{% highlight markdown %}
 # Title
 
 ## Introduction
@@ -75,7 +75,7 @@ This is the introduction text.
 ## Chapter 1
 
 This is the first chapter's text.
-```
+{% endhighlight %}
 
 > # Title
 > 
@@ -89,7 +89,7 @@ This is the first chapter's text.
 
 All of the headers look like this: 
 
-```markdown
+{% highlight markdown %}
 # Header 1
 
 ## Header 2
@@ -103,7 +103,7 @@ All of the headers look like this:
 ###### Header 6
 
 ####### Not a header
-```
+{% endhighlight %}
 
 ---
 
@@ -119,11 +119,11 @@ There are two types of lists in markdown, **ordered lists** and **unordered list
 
 To create an unordered list, you put an asterix at the beginning of each new item in the list, and separate the items by a single new line.
 
-```markdown
+{% highlight markdown %}
 * Item 1
 * Item 2
 * Item 3
-```
+{% endhighlight %}
 
 > * Item 1
 > * Item 2
@@ -133,11 +133,11 @@ Unordered lists have a bullet placed before each item.
 
 Dashes and pluses can also be used to create list items, so this is a valid list:
 
-```markdown
+{% highlight markdown %}
 - Item 1
 + Item 2
 * Item 3
-```
+{% endhighlight %}
 
 Some people prefer to use dashes or plus symbols because they are not used anywhere else in markdown formatting, but others prefer to use the asterisk because it looks more like a bullet. The choice is up to you!
 
@@ -145,11 +145,11 @@ Some people prefer to use dashes or plus symbols because they are not used anywh
 
 To create an ordered lists, instead of putting an asterisk, dash, or plus before the list item, you put a number and a period.
 
-```markdown
+{% highlight markdown %}
 1. Item 1
 2. Item 2
 3. Item 3
-```
+{% endhighlight %}
 
 > 1. Item 1
 > 2. Item 2
@@ -157,11 +157,11 @@ To create an ordered lists, instead of putting an asterisk, dash, or plus before
 
 No matter what order you place the numbers in your plaintext file, markdown will generate the correct numbers in the displayed version.
 
-```markdown
+{% highlight markdown %}
 10. Item 1
 2. Item 2
 9. Item 3
-```
+{% endhighlight %}
 
 This markup will still generate a list that looks like this:
 
@@ -175,17 +175,17 @@ Whether ordered or unordered, all lists follow some simple rules.
 
 You can embed sub-lists inside others by indenting the sub-lists.
 
-```markdown
+{% highlight markdown %}
 * Item 1
 * Item 2
   * Sub-item 1
   * Sub-item 2
 * Item 3
-```
+{% endhighlight %}
 
 If you embed an ordered list inside another list, the numerical ordering will be unique for each sub-list.
 
-```markdown
+{% highlight markdown %}
 1. Item 1
 2. Item 2
   1. Sub-item 1
@@ -193,23 +193,23 @@ If you embed an ordered list inside another list, the numerical ordering will be
 3. Item 3
   1. Sub-item 1
   2. Sub-item 2
-```
+{% endhighlight %}
 
 Placing one or two newlines between list items will format the lists differently. Two newlines will space the items further part.
 
-```markdown
+{% highlight markdown %}
 1. Item 1
 2. Item 2
-```
+{% endhighlight %}
 
 > 1. Item 1
 > 2. Item 2
 
-```markdown
+{% highlight markdown %}
 1. Item 1
 
 2. Item 2
-```
+{% endhighlight %}
 
 > 1. Item 1
 > 
@@ -217,12 +217,12 @@ Placing one or two newlines between list items will format the lists differently
 
 You can include multiple paragraphs inside of a list by indenting the paragraphs by two spaces.
 
-```markdown
+{% highlight markdown %}
 1. Item 1, paragraph 1
   
   Item 1, paragraph 2
 2. Item 2
-```
+{% endhighlight %}
 
 > 1. Item 1, paragraph 1
 >   
@@ -236,7 +236,7 @@ Sometimes you want to quote a large chunk of text and put it off from the rest o
 
 Blockquotes can be nested by adding multiple greater-than signs.
 
-```markdown
+{% highlight markdown %}
 Regular text.
 
 > A quoted paragraph.
@@ -246,7 +246,7 @@ Regular text.
 > > Whoa nested blockquotes.
 > 
 > Final paragraph.
-```
+{% endhighlight %}
 
 > Regular text.
 > 
@@ -270,9 +270,9 @@ Code will display in a monospaced font, and will escape any markdown formatting 
 
 You can wrap a line of code in back-tic marks to make that line show up in a monospaced font.
 
-```markdown
+{% highlight markdown %}
 To **bold text**, `add **two asterisks**`.
-```
+{% endhighlight %}
 
 > To **bold text**, `add **two asterisks**`.
 
@@ -280,11 +280,11 @@ To **bold text**, `add **two asterisks**`.
 
 If you add 4 spaces at the beginning of a line, markdown will treat that whole line as code. Any spaces that you indent beyond the 4 will show up to the user, so that you can show embedded code blocks.
 
-```markdown
+{% highlight markdown %}
     * List item 1
     * List item 2
       * List sub-item 1
-```
+{% endhighlight %}
 
 >     * List item 1
 >     * List item 2
@@ -299,9 +299,9 @@ Links are the lifeblood of the internet. Linking to other pages on your own site
 
 The link syntax looks like this:
 
-```markdown
+{% highlight markdown %}
 [Go to GitHub](http://github.com).
-```
+{% endhighlight %}
 
 Which produces the following link:
 
@@ -314,9 +314,9 @@ Let's break that down. Inside the brackets, you find the text you want to displa
 
 Images work similarly to links.
 
-```markdown
+{% highlight markdown %}
 ![A red panda.](https://upload.wikimedia.org/wikipedia/commons/2/25/Lesser_panda_standing.jpg)
-```
+{% endhighlight %}
 
 > ![A red panda.](https://upload.wikimedia.org/wikipedia/commons/2/25/Lesser_panda_standing.jpg)
 
@@ -331,11 +331,11 @@ Images will show up as their original size, so it's recommended that you use sma
 
 Markdown works by being turned into HTML for your browser to read. As such, you can include HTML in your markdown documents, and it will work just fine. For instance, if you wanted to make sure that a link opened in a new window or tab, you could include the following markdown:
 
-```markdown
+{% highlight markdown %}
 Check out our [store](http://store.com)!
 
 It's a lot better than our <a href="http://competitorsstore.com" target="_blank">competitor's store</a>.
-```
+{% endhighlight %}
 
 The first link would load normally, and the second (because of the `target="_blank"` attribute) would load in a new window or tab.
 
