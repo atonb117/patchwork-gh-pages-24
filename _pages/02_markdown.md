@@ -49,15 +49,6 @@ We're reading _My Brilliant Friend_ in our book club this month.
 
 Using a single asterisk will also work if you don't like the looks of the underscore character.
 
-### Strikeout
-You can also strike out text by using two tildes to wrap the text.
-
-```markdown
-This ~~text will appear striked out~~.
-```
-
-> This ~~text will appear striked out~~.
-
 ### Formatting across paragraphs.
 Bolding, italicizing, and striking out are all line-level formats. That is to say, they won't work across paragraphs. For instance, if you want to bold two whole paragraphs, you'll have to separately mark each one as bolded.
 
@@ -281,9 +272,9 @@ You can wrap a line of code in back-tic marks to make that line show up in a mon
 
 ```markdown
 To **bold text**, `add **two asterisks**`.
+```
 
 > To **bold text**, `add **two asterisks**`.
-```
 
 #### Code Blocks
 
@@ -322,6 +313,7 @@ Let's break that down. Inside the brackets, you find the text you want to displa
 ### Images
 
 Images work similarly to links.
+
 ```markdown
 ![A red panda.](https://upload.wikimedia.org/wikipedia/commons/2/25/Lesser_panda_standing.jpg)
 ```
