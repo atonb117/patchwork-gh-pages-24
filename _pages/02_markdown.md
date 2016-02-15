@@ -4,11 +4,21 @@ title: Markdown
 permalink: /markdown/
 ---
 
+<!--
+This is an HTML comment. It won't show up on your page, but it does show up in the source code.
+
+This file might be helpful as you learn more about markdown. However, you probably don't want it appearing on your final web page. Feel free to remove it from your site at any time.
+
+A permanent copy is found below, so if you do remove it you can still have access to the contents. We've also included it in an "issue" in your GitHub repo: navigate to the "Issues" tab to find it.
+-->
+
 Markdown is a simple, human-readable markup language. In other words, it's a way to format plaintext in a way that is easy to read and write as plaintext, and which a program like Jekyll can then take and format easily.
 
 A lot of sites use markdown. You may have seen it in blog comments, reddit posts, or GitHub issues. It's popular because it's so easy to use. GitHub Pages and Jekyll use markdown to define the content of websites so you don't have to write HTML and CSS unless you're redesigning the site.
 
 In this lesson, we're going to go over the basics of markdown, as well as some GitHub-specific features. By the end, you'll be able to use markdown not only to produce beautiful Jekyll sites, but also around the web.
+
+A permanent copy of this page can be found at <a href="http://wheelhouseio.github.io/project-gh-pages/markdown/" target="_blank">wheelhouseio.github.io/project-gh-pages/markdown</a>.
 
 ---
 
