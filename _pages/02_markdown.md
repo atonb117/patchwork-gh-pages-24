@@ -17,7 +17,7 @@ In this lesson, we're going to go over the basics of markdown, as well as some G
 ### Paragraphs
 Let's start simple. Most text in markdown is just written as plaintext. To create a new paragraph, simply hit the "return/enter" button twice to create a blank line between your two paragraphs.
 
-```markdown
+```
 This is a paragraph.
 
 This is another paragraph.
@@ -30,7 +30,7 @@ This is another paragraph.
 ### Bold
 Say you're writing a message, and you want one part to be highlighted to the recipient is more likely to pay attention to it. You bold the message. In markdown, you bold text by wrapping it in two asterixes.
 
-```markdown
+```
 This text is plain, **this text is bold**.
 ```
 
@@ -41,7 +41,7 @@ The wrapped text will end up bold in the final project.
 ### Italics
 If you want to italitize some text, you can wrap it with a single underscore character on each side.
 
-```markdown
+```
 We're reading _My Brilliant Friend_ in our book club this month.
 ```
 
